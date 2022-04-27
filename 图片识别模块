@@ -1,35 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T06:27:07.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="hk-c4YkNLM5O9yWCfmsf" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T03:01:56.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NF-z6vwACRbdOYLzgZwG" version="17.4.6" type="github">
   <diagram id="HrA0GXWFTQu18t46gUTR" name="Page-1">
-    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UpmbzRExaLSHu7BE75LF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UpmbzRExaLSHu7BE75LF-1" target="UpmbzRExaLSHu7BE75LF-2">
+        <mxCell id="UpmbzRExaLSHu7BE75LF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="UpmbzRExaLSHu7BE75LF-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpmbzRExaLSHu7BE75LF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UpmbzRExaLSHu7BE75LF-2" target="UpmbzRExaLSHu7BE75LF-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="130" width="90" height="30" as="geometry" />
+        <mxCell id="UpmbzRExaLSHu7BE75LF-2" value="拍照或选择图片" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="200" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UpmbzRExaLSHu7BE75LF-2" target="UpmbzRExaLSHu7BE75LF-4">
+        <mxCell id="UpmbzRExaLSHu7BE75LF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UpmbzRExaLSHu7BE75LF-4" target="UpmbzRExaLSHu7BE75LF-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-2" value="拍照或选择图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="190" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UpmbzRExaLSHu7BE75LF-4" target="UpmbzRExaLSHu7BE75LF-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-4" value="把图片转成base64编码格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UpmbzRExaLSHu7BE75LF-4" value="把图片转成base64编码格式" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="250" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UpmbzRExaLSHu7BE75LF-6" target="UpmbzRExaLSHu7BE75LF-8">
+        <mxCell id="UpmbzRExaLSHu7BE75LF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UpmbzRExaLSHu7BE75LF-6" target="UpmbzRExaLSHu7BE75LF-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-6" value="调用百度AI开发平台接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="320" width="100" height="40" as="geometry" />
+        <mxCell id="UpmbzRExaLSHu7BE75LF-6" value="调用百度AI开发平台接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="316" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UpmbzRExaLSHu7BE75LF-8" value="返回数据进行展示" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="400" width="105" height="40" as="geometry" />
+        <mxCell id="w4GWrNM94n79fBGBbGrz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UpmbzRExaLSHu7BE75LF-8" target="w4GWrNM94n79fBGBbGrz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpmbzRExaLSHu7BE75LF-8" value="返回数据进行展示" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="352.5" y="384" width="103.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4GWrNM94n79fBGBbGrz-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=45;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="93.5" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="w4GWrNM94n79fBGBbGrz-4" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=45;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="440" width="93.5" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
