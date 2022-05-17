@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T10:21:18.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="slRkSrcjcMuvr1ioKMBC" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T12:42:28.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="A9IDKq7OVCPotMUH2QnT" version="18.0.3" type="github">
   <diagram id="o_o-eVjMZOwwSGTVQ2xP" name="Page-1">
     <mxGraphModel dx="946" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,18 +64,24 @@
         <mxCell id="pzVoaw6gVQ7rwBvu2GM9-14" value="请求录音权限" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="315" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SsD7k-lmDB-qVIWhoLsL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pzVoaw6gVQ7rwBvu2GM9-16" target="SsD7k-lmDB-qVIWhoLsL-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SsD7k-lmDB-qVIWhoLsL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555.5" y="438" as="sourcePoint" />
+            <mxPoint x="420" y="626" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="556" y="626" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SsD7k-lmDB-qVIWhoLsL-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SsD7k-lmDB-qVIWhoLsL-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3067" y="-2" relative="1" as="geometry">
-            <mxPoint y="-2" as="offset" />
+            <mxPoint x="2" y="-44" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SsD7k-lmDB-qVIWhoLsL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pzVoaw6gVQ7rwBvu2GM9-16" target="pzVoaw6gVQ7rwBvu2GM9-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xEDaUTuM1UGTF7DBiFVO-1" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SsD7k-lmDB-qVIWhoLsL-11">
+        <mxCell id="xEDaUTuM1UGTF7DBiFVO-1" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SsD7k-lmDB-qVIWhoLsL-11" vertex="1" connectable="0">
           <mxGeometry x="0.1429" y="3" relative="1" as="geometry">
             <mxPoint x="3" y="-4" as="offset" />
           </mxGeometry>
@@ -88,9 +94,6 @@
         </mxCell>
         <mxCell id="SsD7k-lmDB-qVIWhoLsL-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=45;" parent="1" vertex="1">
           <mxGeometry x="376.63" y="642" width="86.75" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="SsD7k-lmDB-qVIWhoLsL-3" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=45;" parent="1" vertex="1">
-          <mxGeometry x="635" y="403" width="86.75" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
